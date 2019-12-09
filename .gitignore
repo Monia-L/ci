@@ -24,3 +24,4 @@ yarn-error.log*
 
 #for Travis
 now-review-app.json
+now-staging-app.json

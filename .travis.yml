@@ -4,8 +4,8 @@ node_js:
 before_deploy: npm install -g now
 deploy:
   - provider: script
-   script: bash scripts/deploy_review_app.sh
+   script: bash scripts/deploy_staging_app.sh
     skip_cleanup: true
     on:
-      all_branches: true
+      branch: master
       condition: $TRAVIS_BRANCH != "master"
