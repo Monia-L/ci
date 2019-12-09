@@ -11,6 +11,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <p style={{ color: "red" }}>Je suis en rouge</p>
+        <p style={{ color: "blue" }}>Je suis en rouge</p>
+
         <a
           className="App-link"
           href="https://reactjs.org"
