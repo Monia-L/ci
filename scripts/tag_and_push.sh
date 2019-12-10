@@ -5,3 +5,5 @@ git remote add github-origin https://Monia-L:$GITHUB_API_KEY@github.com/$TRAVIS_
 
 npm version minor
 git push github-origin --follow-tags
+
+#étiquetage automatique des commits sur master
